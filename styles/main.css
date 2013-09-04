@@ -1,0 +1,287 @@
+@import "reset.css";
+
+@import "icons.css";
+
+@import url("http://fonts.googleapis.com/css?family=Nixie+One|Raleway:100,200,300,400,500,600,700,800,900|Raleway+Dots");
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #FFF;
+  margin: 0px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.left {
+  float: left;
+  width: 41.66666666666667%;
+  margin: 0 0%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  background: #2ed9a3;
+  min-height: 100%;
+  text-align: right;
+  color: #FFF;
+  border-right: solid 10px #27b789;
+  padding: 80px 10px 0px 0px;
+}
+.left h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.right {
+  float: left;
+  width: 58.333333333333336%;
+  margin: 0 0%;
+  max-width: 585px;
+  margin-left: 41.66666666666667%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #FFF;
+  text-align: left;
+  color: #444444;
+  padding: 200px 0px 20px 10px;
+  min-height: 100%;
+}
+.right h2 {
+  font-size: 1.8em;
+  color: #27b789;
+  font-family: "nixie one";
+  margin-bottom: 10px;
+}
+.right section {
+  margin-bottom: 40px;
+}
+ul.contacts li {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 1.2em;
+  margin-bottom: 100px;
+}
+ul.contacts li a {
+  display: inline-block;
+  color: #444444;
+  -moz-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+ul.contacts li a:hover,
+ul.contacts li a:focus {
+  font-size: 1.2em;
+  color: #27b789;
+  outline: none;
+}
+ul.contacts span.label {
+  display: none;
+}
+section h3 {
+  font-family: "nixie one";
+  font-size: 1.5em;
+  color: #27b789;
+  margin-bottom: 10px;
+}
+section h4 {
+  float: left;
+  width: 75%;
+  margin: 0 0%;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 5px;
+  line-height: 1.2em;
+}
+section p.duration,
+section p.category {
+  float: left;
+  width: 25%;
+  margin: 0 0%;
+  line-height: 1.6em;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: rgba(68, 68, 68, 0.6);
+}
+section ul.formations > li,
+section ul.experiences > li,
+section ul.competences > li {
+  display: block;
+  width: 100%;
+  margin: 0 0%;
+  *zoom: 1;
+  margin-bottom: 20px;
+}
+section ul.formations > li:before,
+section ul.experiences > li:before,
+section ul.competences > li:before,
+section ul.formations > li:after,
+section ul.experiences > li:after,
+section ul.competences > li:after {
+  content: "";
+  display: table;
+}
+section ul.formations > li:after,
+section ul.experiences > li:after,
+section ul.competences > li:after {
+  clear: both;
+}
+section p.location,
+section .details {
+  float: left;
+  width: 75%;
+  margin: 0 0%;
+  margin-left: 25%;
+  line-height: 1.3em;
+}
+section p.location {
+  font-weight: 500;
+  color: rgba(68, 68, 68, 0.4);
+  margin-bottom: 5px;
+}
+section p.location strong {
+  font-weight: 700;
+}
+section span.tag {
+  font-size: 0.55em;
+  color: rgba(68, 68, 68, 0.4);
+  font-weight: 300;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: rgba(68, 68, 68, 0.30000000000000004);
+  color: #FFF;
+  padding: 2px 5px;
+  letter-spacing: 0.1em;
+  vertical-align: middle;
+}
+section ul.details {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+section ul.details li {
+  list-style: circle outside;
+  margin-bottom: 5px;
+}
+section p.details {
+  margin-bottom: 5px;
+}
+section .autres {
+  font-size: 0.9em;
+  color: rgba(68, 68, 68, 0.8);
+}
+section ul.competences ul.details {
+  margin-left: 0;
+  padding: 0;
+}
+section ul.competences li {
+  list-style: none;
+}
+section .presque {
+  font-family: "raleway dots";
+}
+@media screen and (max-width: 720px) {
+  .left {
+    float: left;
+    width: 100%;
+    margin: 0 0%;
+    height: auto;
+    min-height: 0;
+    border-right: none;
+    border-bottom: solid 10px #27b789;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .left h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  .right {
+    float: left;
+    width: 100%;
+    margin: 0 0%;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+  }
+  .right h2 {
+    font-size: 1.5em;
+  }
+  .right section {
+    text-align: left;
+    float: left;
+    width: 83.33333333333334%;
+    margin: 0 0%;
+    margin-left: 8.333333333333332%;
+  }
+  .right span.tag {
+    font-weight: 500;
+  }
+  .right ul.formations > li,
+  .right ul.experiences > li,
+  .right ul.competences > li {
+    display: block;
+    width: 100%;
+    margin: 0 0%;
+    *zoom: 1;
+  }
+  .right ul.formations > li:before,
+  .right ul.experiences > li:before,
+  .right ul.competences > li:before,
+  .right ul.formations > li:after,
+  .right ul.experiences > li:after,
+  .right ul.competences > li:after {
+    content: "";
+    display: table;
+  }
+  .right ul.formations > li:after,
+  .right ul.experiences > li:after,
+  .right ul.competences > li:after {
+    clear: both;
+  }
+  .right p.duration,
+  .right p.category,
+  .right p.location {
+    float: left;
+    width: 100%;
+    margin: 0 0%;
+  }
+  .right .details {
+    float: left;
+    width: 75%;
+    margin: 0 0%;
+    margin-left: 8.333333333333332%;
+  }
+}
